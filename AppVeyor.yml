@@ -1,4 +1,6 @@
 language: python
+install:
+- pip3 install flask 
 script:
 - cd flaskapp
 - python3 some_app.py
